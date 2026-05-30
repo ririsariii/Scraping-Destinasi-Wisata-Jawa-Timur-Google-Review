@@ -35,7 +35,7 @@ SCROLL_PAUSE            = 2.5
 JEDA_ANTAR_TEMPAT       = 5
 
 # ============================================================
-# DATA DESTINASI — lengkap 13 tempat
+# DATA DESTINASI 
 # ============================================================
 DESTINASI = [
     ("Jatim Park 1 Batu",                "Wisata Hiburan",         "Batu"),
@@ -391,7 +391,7 @@ def scrape_semua() -> pd.DataFrame:
 if __name__ == "__main__":
     print("=" * 60)
     print("  Scraper Google Maps Reviews (Selenium)")
-    print("  13 Destinasi Wisata Jawa Timur")
+    print("  Destinasi Wisata Jawa Timur")
     print(f"  Target: maks {MAX_REVIEWS_PER_TEMPAT} review/destinasi")
     print("=" * 60)
     print("\n⚠ PENTING:")
